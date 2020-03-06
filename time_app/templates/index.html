@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Time</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body {
+            background-color: rgb(233, 233, 218);
+        }
+
+        .container {
+            margin: 50px;
+            background-color: rgb(97, 187, 172);
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        .header {
+            background-color: aqua;
+            width: auto;
+            text-align: center;
+            border-radius: 10px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .time {
+            background-color: rgb(150, 53, 53);
+            width: auto;
+            text-align: center;
+            border-radius: 10px;
+            justify-content: center;
+            padding: 20px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>The current Date and time is:</h1>
+        </header>
+        <div>
+            <h1 class="time">{{ time }}</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
